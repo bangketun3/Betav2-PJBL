@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web PJBL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/LogoHantu.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Course</h1>
+    </section>
+
+    <!--- Sanctuary --->
+    <section class="Coursetype">
+        <h1>Course that we have</h1>
+        <p> Here are some of the course that we have in our website.</p>
+
+        <div class="course-row">
+            <div class="Coursetype-col">
+                <h3>Course 1</h3>
+                <p> STRUKTUR, KOMPONEN, DAN FUNGSI WEBSITE</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gssv_v24ZRc?si=5xvgT2ZSnQgIFZLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            <div class="Coursetype-col">
+                <h3>Course 2</h3>
+                <p> DASAR HTML DAN CSS</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i7WtB70Ib7g?si=tUUOKXck8WQkJu2y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            <div class="Coursetype-col">
+                <h3>Course 3</h3>
+                <p> EKSEKUSI PEMBUATAN WEB</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rd8oB3DFEXc?si=W3r6S-ks1t1F8iMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+        </div>
+        <div class="course-row">
+            <div class="Coursetype-col">
+                <h3>Membuat Website Dari Nol</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eL7oawK5DcQ?si=dn8HL2-E42TWD-rI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+     </section> 
+
+     <!--- Footer --->
+
+     <section class="footer">
+        <h4>About US</h4>
+        <p> NO.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i>By PJBL FIK Group 25</p>
+     </section>
+    <!-- JavaScript for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
